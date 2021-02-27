@@ -18,8 +18,8 @@ def smtp_client(port=1025, mailserver='127.0.0.1'):
 
     # Fill in start
     
-    port = 25
-    mailserver = 'smtp.nyu.edu'
+    #port = 25
+    #mailserver = 'smtp.nyu.edu'
     clientSocket = socket(AF_INET, SOCK_STREAM)
     clientSocket.connect((mailserver, port))
     
